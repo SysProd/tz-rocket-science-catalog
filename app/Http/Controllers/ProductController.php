@@ -25,7 +25,6 @@ class ProductController extends Controller
 
         $products = $query->with(['properties', 'properties.values'])->paginate(40);
 
-        // Форматируем ответ, чтобы включить свойства товара
         $formattedProducts = $products->map(function ($product) {
             $properties = $product->properties->mapWithKeys(function ($property) {
                 $value = $property->pivot->property_value_id;

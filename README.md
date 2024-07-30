@@ -10,12 +10,12 @@
 1. Скопируйте репозиторий в локальный каталог:
 
    ```bash
-   git clone https://github.com/yourusername/laravel-product-catalog.git
+   git clone https://github.com/yourusername/tz-rocket-science-catalog.git
 
 2. Перейдите в директорию скопированного проекта:
 
    ```bash
-    cd laravel-product-catalog
+    cd tz-rocket-science-catalog
    
 3. Установите зависимости:
 
